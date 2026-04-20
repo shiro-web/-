@@ -1,0 +1,11 @@
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded", // 展開されたCSS（compressedで圧縮）
+      "extensionName": ".css", // 出力拡張子
+      "savePath": "/css" // SCSSと同じ階層にCSSフォルダを作成し保存
+    }
+  ],
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+  "liveSassCompile.settings.generateMap": true // ソースマップを作成する
+}
