@@ -1,3 +1,25 @@
 body {
-  background-color: red;
+  background-color: #ffffff;
+}
+
+.header {
+  &__nav {
+    background-color: #333333;
+  }
+  &__navList {
+    display: flex;
+    list-style: none;
+  }
+}
+
+.topArticle {
+  &__container {
+    width: 100%;
+  }
+
+  &__img {
+    img {
+      width: 100%;
+    }
+  }
 }

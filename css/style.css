@@ -1,3 +1,18 @@
 body {
-  background-color: red;
+  background-color: #ffffff;
+}
+
+.header__nav {
+  background-color: #333333;
+}
+.header__navList {
+  display: flex;
+  list-style: none;
+}
+
+.topArticle__container {
+  width: 100%;
+}
+.topArticle__img img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
