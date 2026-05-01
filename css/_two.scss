@@ -31,11 +31,11 @@
 }
 
 .name {
-  &__img {
+  &__imgWrapper {
     width: 120px;
     height: 120px;
-    img {
-      border-radius: 50%;
-    }
+  }
+  &__img {
+    border-radius: 50%;
   }
 }
