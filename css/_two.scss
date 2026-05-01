@@ -1,6 +1,4 @@
-body {
-  background-color: #ffffff;
-}
+@use "base";
 
 .header {
   &__nav {
@@ -14,12 +12,30 @@ body {
 
 .topArticle {
   &__container {
-    width: 100%;
+    @media screen and (min-width: 768px) {
+      display: flex;
+    }
   }
+}
 
+.main__container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.mainArticle {
   &__img {
+    width: 343px;
+  }
+}
+
+.name {
+  &__img {
+    width: 120px;
+    height: 120px;
     img {
-      width: 100%;
+      border-radius: 50%;
     }
   }
 }
