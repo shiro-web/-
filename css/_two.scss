@@ -1,3 +1,51 @@
-body {
-  background-color: red;
+@use "base";
+
+.header {
+  &__nav {
+    background-color: #333333;
+  }
+  &__navList {
+    display: flex;
+    list-style: none;
+  }
+}
+
+.topArticle {
+  &__container {
+    @media screen and (min-width: 768px) {
+      display: flex;
+    }
+  }
+}
+
+.main__container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.mainArticle {
+  &__img {
+    width: 343px;
+  }
+}
+
+.name {
+  &__imgWrapper {
+    width: 120px;
+    height: 120px;
+  }
+  &__img {
+    border-radius: 50%;
+  }
+}
+
+footer {
+  background: #f7f7f7;
+}
+
+.footer__info {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 }
