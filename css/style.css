@@ -33,4 +33,14 @@ img {
 }
 .name__img {
   border-radius: 50%;
+}
+
+footer {
+  background: #f7f7f7;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__info {
+    display: flex;
+  }
 }/*# sourceMappingURL=style.css.map */
