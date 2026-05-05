@@ -1,3 +1,11 @@
+body {
+  font-family: "Meiryo", "メイリオ", "MS PGothic", "sans-serif";
+
+  // destyle.cssを使っている場合、以下も設定しておくとより安定します
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 img {
   width: 100%;
   height: 100%;

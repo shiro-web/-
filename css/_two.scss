@@ -1,15 +1,5 @@
 @use "base";
 
-.header {
-  &__nav {
-    background-color: #333333;
-  }
-  &__navList {
-    display: flex;
-    list-style: none;
-  }
-}
-
 .topArticle {
   &__container {
     @media screen and (min-width: 768px) {
