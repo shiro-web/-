@@ -1,0 +1,37 @@
+.header {
+  &__logoOuter {
+    margin: 20px 0;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    @media screen and (min-width: 768px) {
+      max-width: 1154px;
+      margin: 20px auto;
+    }
+  }
+
+  &__logoWrapper {
+    width: 145px;
+  }
+
+  &__nav {
+    padding: 13px 17px;
+    background-color: #333333;
+    width: 100%;
+  }
+
+  &__navList {
+    max-width: 1154px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    overflow-x: auto;
+    list-style: none;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: normal;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
