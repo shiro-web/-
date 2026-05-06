@@ -1,4 +1,6 @@
 @use "./reset";
-@use "./two";
+@use "./components/textLink";
 @use "./header";
 @use "./topArticle";
+@use "./mainArticle";
+@use "./two";

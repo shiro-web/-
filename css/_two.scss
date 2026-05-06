@@ -2,17 +2,6 @@
 
 
 
-.main__container {
-  @media screen and (min-width: 768px) {
-    display: flex;
-  }
-}
-
-.mainArticle {
-  &__img {
-    width: 343px;
-  }
-}
 
 .name {
   &__imgWrapper {

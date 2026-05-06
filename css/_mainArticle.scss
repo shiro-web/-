@@ -1,0 +1,46 @@
+main {
+  padding: 0 16px;
+}
+
+.main__container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.mainArticle {
+  text-align: center;
+
+  &__img {
+    width: 343px;
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    margin-bottom: 22px;
+    text-align: left;
+  }
+
+  &__info {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 13px;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  &__imgWrapper {
+    margin-bottom: 13px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 24px;
+    width: 258px;
+    margin: 0 auto;
+    margin-bottom: 21px;
+    text-align: left;
+  }
+}

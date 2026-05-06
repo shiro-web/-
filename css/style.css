@@ -375,45 +375,19 @@ th {
   font-weight: bold;
 }
 
-body {
-  font-family: "noto sans jp", "Meiryo", "メイリオ", "MS PGothic", "sans-serif";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #333333;
-  font-weight: normal;
+.linkText {
+  font-size: 14px;
+  line-height: 17px;
+  position: relative;
 }
-
-img {
+.linkText::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
   width: 100%;
-  height: 100%;
-}
-
-@media screen and (min-width: 768px) {
-  .main__container {
-    display: flex;
-  }
-}
-
-.mainArticle__img {
-  width: 343px;
-}
-
-.name__imgWrapper {
-  width: 120px;
-  height: 120px;
-}
-.name__img {
-  border-radius: 50%;
-}
-
-footer {
-  background: #f7f7f7;
-}
-
-@media screen and (min-width: 768px) {
-  .footer__info {
-    display: flex;
-  }
+  height: 1px;
+  background-color: #333333;
 }
 
 .header__logoOuter {
@@ -475,18 +449,76 @@ footer {
   line-height: 19px;
   margin-bottom: 21px;
 }
-.topArticle__link {
-  text-align: center;
-  font-size: 14px;
-  line-height: 17px;
-  position: relative;
+
+main {
+  padding: 0 16px;
 }
-.topArticle__link::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
+
+@media screen and (min-width: 768px) {
+  .main__container {
+    display: flex;
+  }
+}
+
+.mainArticle {
+  text-align: center;
+}
+.mainArticle__img {
+  width: 343px;
+}
+.mainArticle__title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  margin-bottom: 22px;
+  text-align: left;
+}
+.mainArticle__info {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 13px;
+  font-size: 14px;
+  text-align: left;
+}
+.mainArticle__imgWrapper {
+  margin-bottom: 13px;
+}
+.mainArticle__text {
+  font-size: 16px;
+  line-height: 24px;
+  width: 258px;
+  margin: 0 auto;
+  margin-bottom: 21px;
+  text-align: left;
+}
+
+body {
+  font-family: "noto sans jp", "Meiryo", "メイリオ", "MS PGothic", "sans-serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333333;
+  font-weight: normal;
+}
+
+img {
   width: 100%;
-  height: 1px;
-  background-color: #333333;
+  height: 100%;
+}
+
+.name__imgWrapper {
+  width: 120px;
+  height: 120px;
+}
+.name__img {
+  border-radius: 50%;
+}
+
+footer {
+  background: #f7f7f7;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__info {
+    display: flex;
+  }
 }/*# sourceMappingURL=style.css.map */
