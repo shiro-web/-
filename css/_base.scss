@@ -1,9 +1,11 @@
 body {
-  font-family: "Meiryo", "メイリオ", "MS PGothic", "sans-serif";
+  font-family: "noto sans jp", "Meiryo", "メイリオ", "MS PGothic", "sans-serif";
 
   // destyle.cssを使っている場合、以下も設定しておくとより安定します
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #333333;
+  font-weight: normal;
 }
 
 img {
